@@ -21,7 +21,7 @@
 ### `calcularIVA`
 
 ```text
-MODULO calcularIVA(_____)
+MODULO calcularIVA(_Presio + .16 %____)
 
 FIN MODULO
 ```
