@@ -7,43 +7,55 @@
 
 ## Receta del programa principal (`main`)
 
-<!-- Debe leerse casi igual que tu árbol de análisis descendente (sección 6 del README). -->
-
-```text
-1. MOSTRAR "Bienvenido a mi programa"
-
-```
+1. Mostrar el título del ticket.
+2. Pedir el nombre del producto.
+3. Pedir el precio.
+4. Pedir la cantidad.
+5. Pedir el porcentaje de descuento.
+6. Calcular el subtotal.
+7. Calcular el descuento.
+8. Calcular el total con IVA.
+9. Mostrar el ticket de compra.
+10. Terminar el programa.
 
 ## Recetas de los módulos
 
-<!-- Para cada módulo: qué recibe, qué hace y qué devuelve. -->
-
 ### `calcularIVA`
 
-```text
-MODULO calcularIVA(_Presio + .16 %____)
+MODULO calcularIVA(subtotal)
+
+1. Multiplicar el subtotal por 0.16.
+2. Devolver el IVA.
 
 FIN MODULO
 ```
 
 ### `imprimirTicket`
 
-```text
-MODULO imprimirTicket(_____)
-
+1. Mostrar el nombre del producto.
+2. Mostrar el precio.
+3. Mostrar la cantidad.
+4. Mostrar el descuento.
+5. Mostrar el subtotal.
+6. Mostrar el total.
+7. Mostrar fin del ticket.
 FIN MODULO
 ```
 
 ### `calcularPorcentaje` (Fase 4)
 
-```text
-MODULO calcularPorcentaje(_____)
+1. Dividir el porcentaje entre 100.
+2. Multiplicar la cantidad por el porcentaje.
+3. Devolver el resultado.
 
 FIN MODULO
 ```
 
 ### Otros módulos que agregues (por ejemplo, para tu reto)
 
-```text
+MODULO calcularDescuento(subtotal, porcentaje)
 
-```
+1. Calcular el porcentaje del subtotal.
+2. Devolver el descuento.
+
+FIN MODULO
