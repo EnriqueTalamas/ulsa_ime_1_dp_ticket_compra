@@ -327,7 +327,7 @@ _Lo encontre probando diferentes valores y revisando los resultados del descuent
 
 ## 20. Commits (Fase 5)
 
-**¿Cuántos commits hice durante la práctica?** _____
+**¿Cuántos commits hice durante la práctica?** ___6__
 
 **Si hice menos de 3, ¿por qué?**
 ___Si para guardar mis cambios__
